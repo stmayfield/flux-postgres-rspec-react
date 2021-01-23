@@ -84,6 +84,6 @@ test:
 #
 production:
   <<: *default
-  database: <%= ENV['POSTGRES_DB'] %>
+  database: flux_postgres_rspec_react_production
   username: flux_postgres_rspec_react
   password: <%= ENV['FLUX_POSTGRES_RSPEC_REACT_DATABASE_PASSWORD'] %>

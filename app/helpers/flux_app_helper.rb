@@ -1,0 +1,2 @@
+module FluxAppHelper
+end
